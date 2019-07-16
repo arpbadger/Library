@@ -1,0 +1,8 @@
+/Users/tylerbutler/Documents/projects/programming/Github/Library/C-Programming-Tutorial-for-Beginners/if-statements.c:8:52: error: expected ';' after expression
+  printf("\n%d is the greater number\n", max(4,10))
+                                                   ^
+                                                   ;
+/Users/tylerbutler/Documents/projects/programming/Github/Library/C-Programming-Tutorial-for-Beginners/if-statements.c:13:30: error: expected identifier or '('
+int max(int num1, int num2); {
+                             ^
+2 errors generated.
