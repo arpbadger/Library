@@ -24,7 +24,7 @@ int printing_examples()
   printf("My grade is: $s", print_grade);     /* use %s to use a character */
   printf("My GPA is: $f", print_gpa);     /* use %f to use a decimal */
   printf("My teacher's age is: $d", print_age);     /* use %d to use an integer */
-  return 0;
+  return 0;                                         /* use %f for a double as well */
 }
 
 int numbers_examples()

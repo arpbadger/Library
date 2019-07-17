@@ -1,0 +1,24 @@
+/Users/tylerbutler/Documents/projects/programming/Github/Library/C-Programming-Tutorial-for-Beginners/calculator.c:17:15: warning: format specifies type 'int *' but the argument has type 'int' [-Wformat]
+  scanf("%d", command);
+         ~~   ^~~~~~~
+/Users/tylerbutler/Documents/projects/programming/Github/Library/C-Programming-Tutorial-for-Beginners/calculator.c:21:86: error: expected ';' after expression
+    printf("%d + %d is equal to %d", user_int1, user_int2, add(user_int1,user_int2) )
+                                                                                     ^
+                                                                                     ;
+/Users/tylerbutler/Documents/projects/programming/Github/Library/C-Programming-Tutorial-for-Beginners/calculator.c:23:86: error: expected ';' after expression
+    printf("%d + %d is equal to %d", user_int1, user_int2, sub(user_int1,user_int2) )
+                                                                                     ^
+                                                                                     ;
+/Users/tylerbutler/Documents/projects/programming/Github/Library/C-Programming-Tutorial-for-Beginners/calculator.c:25:87: error: expected ';' after expression
+    printf("%d + %d is equal to %d", user_int1, user_int2, mult(user_int1,user_int2) )
+                                                                                      ^
+                                                                                      ;
+/Users/tylerbutler/Documents/projects/programming/Github/Library/C-Programming-Tutorial-for-Beginners/calculator.c:27:91: error: expected ';' after expression
+    printf("%d + %d is equal to %d", user_int1, user_int2, div_func(user_int1,user_int2) )
+                                                                                          ^
+                                                                                          ;
+/Users/tylerbutler/Documents/projects/programming/Github/Library/C-Programming-Tutorial-for-Beginners/calculator.c:42:23: error: expected ';' after expression
+  result = num1 - num2
+                      ^
+                      ;
+1 warning and 5 errors generated.
