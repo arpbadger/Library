@@ -53,7 +53,7 @@ def connect(target_host,target_port):
 	#receive some data
 	response = client.recv(4096)
 
-	print response
+	print(response)
 
 # Main sequence
 def main():

@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "inet.h": "c"
-    }
+    },
+    "python.pythonPath": "/usr/bin/python"
 }
