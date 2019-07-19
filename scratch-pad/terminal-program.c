@@ -6,7 +6,6 @@ void usage();
 int main() {
     char command;
 
-    // usage();
     printf("Enter a Command\n\n");
     scanf("%s", &command);
     printf("%s", &command);
