@@ -3,7 +3,7 @@
 
 import socket
 
-target_host = ""
+target_host = ""           # trying to make this literal a bytes like stirng
 target_port = 0
 
 # Pring title page
@@ -38,6 +38,8 @@ def connect(target_host,target_port):
 
 	#edit target_host variable. I.E cut of www
 	ftarget_host = target_host[2:]
+	# target_host = int(ftarget_host)
+	output = (ftarget_host.encode('utf-8'))
 
 	#create a socket object
 	client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -46,7 +48,12 @@ def connect(target_host,target_port):
 	client.connect((target_host,target_port))
 
 	#send some data
-	client.send("GET / HTTP/1.1\r\nHost: "+ftarget_host+"\r\n\r\n")
+	#client.send("GET / HTTP/1.1\r\nHost: "+ftarget_host+"\r\n\r\n")
+	output = "GET / HTTP/1.1\r\nHost: "+ftarget_host+"\r\n\r\n"
+	client.sendall(output.encode('utf-8'))
+	#client.send("GET / HTTP/1.1\r\nHost: 10.0.0.1\r\n\r\n")
+
+
 
 	#receive some data
 	response = client.recv(4096)
