@@ -12,7 +12,7 @@ def title_sequence():
 	print('''
 			__     _                      _        ___           _
 		/\ \ \___| |___      _____  _ __| | __   / __\ __ _  __| | __ _  ___ _ __
-		/  \/ / _ \ __\ \ /\ / / _ \| '__| |/ /  /__\/// _` |/ _` |/ _` |/ _ \ '__|
+		/  \/ / _ \ __\ \ /\ / / _ \| '__| |//  /__\/// _` |/ _` |/ _` |/ _ \ '__|
 		/ /\  /  __/ |_ \ V  V / (_) | |  |   <  / \/  \ (_| | (_| | (_| |  __/ |
 		\_\ \/ \___|\__| \_/\_/ \___/|_|  |_|\_\ \_____/\__,_|\__,_|\__, |\___|_|
 																	|___/
@@ -26,7 +26,7 @@ def get_target():
 	global target_port
 
 	print("enter target host")
-	target_host = raw_input()
+	target_host = input()
 
 	print("enter target port")
 	target_port = int(input())

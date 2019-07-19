@@ -1,1 +1,3 @@
-#!/usr/share/python
+print("Enter Name\n")
+name = input()
+print(name)
